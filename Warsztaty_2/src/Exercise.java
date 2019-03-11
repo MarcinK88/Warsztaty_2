@@ -96,4 +96,8 @@ public class Exercise {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public int getId() {
+        return id;
+    }
 }

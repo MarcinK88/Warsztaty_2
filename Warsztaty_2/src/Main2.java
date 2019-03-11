@@ -22,8 +22,13 @@ public class Main2 {
 //            User user2 = User.loadUserById(connection.getConnection(),4);
 //            System.out.println("imie: " + user2.getUsername() + " id: " + user2.getId());
 
-        Exercise exercise1 = new Exercise("exercise1","description1");
+        Exercise exercise1 = new Exercise("exercise2","description2");
         exercise1.saveToDB(connection.getConnection());
+
+            ArrayList<Exercise> exercises = Exercise.loadAllExercises(connection.getConnection());
+            for (Exercise exercise : exercises) {
+                System.out.println("id: " + exercise.getId() + " tytuł:  " + exercise.getTitle() + " opis: " + exercise.getDescription());
+            }
 
 
         } catch (SQLException e) {
