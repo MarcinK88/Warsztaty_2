@@ -6,20 +6,25 @@ import java.util.ArrayList;
 public class Main2 {
     public static void main(String[] args) throws SQLException {
 
-        DBConnection connection = new DBConnection("programming_school", "root", "coderslab");
+        DBConnection connection = null;
 
         try {
-            ArrayList<User> users = User.loadAllUsers(connection.getConnection());
-            for (User user : users) {
-                System.out.println("id: " + user.getId() + " imie: " + user.getUsername() + " email: " + user.getEmail());
-            }
+            connection = new DBConnection("programming_school", "root", "coderslab");
+//            ArrayList<User> users = User.loadAllUsers(connection.getConnection());
+//            for (User user : users) {
+//                System.out.println("id: " + user.getId() + " imie: " + user.getUsername() + " email: " + user.getEmail());
+//            }
 
 
 //            User user1 = new User("name5", "mail5", "password");
 //            user1.saveToDB(connection.getConnection());
 
-            User user2 = User.loadUserById(connection.getConnection(),4);
-            System.out.println("imie: " + user2.getUsername() + " id: " + user2.getId());
+//            User user2 = User.loadUserById(connection.getConnection(),4);
+//            System.out.println("imie: " + user2.getUsername() + " id: " + user2.getId());
+
+        Exercise exercise1 = new Exercise("exercise1","description1");
+        exercise1.saveToDB(connection.getConnection());
+
 
         } catch (SQLException e) {
             e.printStackTrace();

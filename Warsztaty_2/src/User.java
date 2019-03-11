@@ -67,7 +67,8 @@ public class User {
             loadedUser.password = resultSet.getString("password");
             loadedUser.email = resultSet.getString("email");
             return loadedUser;}
-        return null;}
+        return null;
+    }
 
     public String getUsername() {
         return username;
