@@ -78,7 +78,7 @@ public class Group {
 
     public void delete(Connection conn) throws SQLException {
         if (this.id != 0) {
-            String sql = "DELETE FROM groups WHERE id=?";
+            String sql = "DELETE FROM user_group WHERE id=?";
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
             preparedStatement.setInt(1, this.id);
             preparedStatement.executeUpdate();
