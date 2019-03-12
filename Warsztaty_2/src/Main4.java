@@ -26,9 +26,10 @@ public class Main4 {
 //            solution.saveToDB(connection.getConnection());
 //
 //
-            ArrayList<Solution> solutions = Solution.loadAllByExerciseId(connection.getConnection(),2);
-            for (Solution solution1 : solutions) {
-                System.out.println("id: " + solution1.getId() + " created:  " + solution1.getCreated() + " opis: " + solution1.getDescription());
+            ArrayList<User> users = User.loadAllByGroupId(connection.getConnection(),4);
+            for (User user : users) {
+                System.out.println("id: " + user.getId() + " username:  " + user.getUsername() + " email: " + user.getEmail()
+                + " group_id: " + user.getGroup_id());
             }
 
 //            solutions.get(1).delete(connection.getConnection());

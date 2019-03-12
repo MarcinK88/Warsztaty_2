@@ -111,6 +111,23 @@ public class User {
 
         return users;}
 
+    static public ArrayList<User> loadAllByGroupId(Connection conn, int group_id) throws SQLException {
+        ArrayList<User> users = new ArrayList<User>();
+        String sql = "SELECT * FROM users where group_id=?";
+        PreparedStatement preparedStatement = conn.prepareStatement(sql);
+        preparedStatement.setInt(1, group_id);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        while (resultSet.next()) {
+            User loadedUser = new User();
+            loadedUser.id = resultSet.getInt("id");
+            loadedUser.username = resultSet.getString("username");
+            loadedUser.password = resultSet.getString("password");
+            loadedUser.email = resultSet.getString("email");
+            loadedUser.group_id = resultSet.getInt("group_id");
+            users.add(loadedUser);}
+
+        return users;}
+
     public void delete(Connection conn) throws SQLException {
         if (this.id != 0) {
             String sql = "DELETE FROM users WHERE id=?";
