@@ -12,11 +12,13 @@ public class User {
     private String username;
     private String password;
     private String email;
+    private int group_id;
 
-    public User(String username, String email, String password) {
+    public User(String username, String email, String password, int group_id) {
         this.username = username;
         this.email = email;
         this.setPassword(password);
+        this.group_id = group_id;
     }
 
     public User() {
@@ -32,24 +34,26 @@ public class User {
 
     public void saveToDB(Connection conn) throws SQLException {
         if (this.id == 0) {
-            String sql = "INSERT INTO users(username, email, password) VALUES (?, ?, ?)";
+            String sql = "INSERT INTO users(username, email, password, group_id) VALUES (?, ?, ?, ?)";
             PreparedStatement preparedStatement
                     = conn.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
             preparedStatement.setString(1, this.username);
             preparedStatement.setString(2, this.email);
             preparedStatement.setString(3, this.password);
+            preparedStatement.setString(4, this.group_id);
             preparedStatement.executeUpdate();
             ResultSet rs = preparedStatement.getGeneratedKeys();
             if (rs.next()) {
                 this.id = rs.getInt(1);
             }
         } else {
-            String sql = "UPDATE users SET username=?, email=?, password=? where id = ?";
+            String sql = "UPDATE users SET username=?, email=?, password=?, group_id=? where id = ?";
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
             preparedStatement.setString(1, this.username);
             preparedStatement.setString(2, this.email);
             preparedStatement.setString(3, this.password);
-            preparedStatement.setInt(4, this.id);
+            preparedStatement.setString(4, this.group_id);
+            preparedStatement.setInt(5, this.id);
             preparedStatement.executeUpdate();
         }
     }
@@ -66,6 +70,7 @@ public class User {
             loadedUser.username = resultSet.getString("username");
             loadedUser.password = resultSet.getString("password");
             loadedUser.email = resultSet.getString("email");
+            loadedUser.group_id = resultSet.getString("group_id");
             return loadedUser;}
         return null;
     }
@@ -101,6 +106,7 @@ public class User {
             loadedUser.username = resultSet.getString("username");
             loadedUser.password = resultSet.getString("password");
             loadedUser.email = resultSet.getString("email");
+            loadedUser.group_id = resultSet.getString("group_id");
             users.add(loadedUser);}
 
         return users;}
@@ -113,5 +119,13 @@ public class User {
             preparedStatement.executeUpdate();
             this.id = 0;
         }
+    }
+
+    public int getGroup_id() {
+        return group_id;
+    }
+
+    public void setGroup_id(int group_id) {
+        this.group_id = group_id;
     }
 }

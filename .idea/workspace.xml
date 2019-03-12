@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e057531-f4c8-4b1c-8449-190c6dff2e1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Warsztaty_2/src/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warsztaty_2/src/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warsztaty_2/src/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warsztaty_2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warsztaty_2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warsztaty_2/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warsztaty_2/src/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Main5.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -82,15 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="107" selection-start-line="107" selection-end-line="115" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#560#561#0" expanded="true" />
                 <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#4032#4033#0" expanded="true" />
+                <element signature="e#4063#4064#0" expanded="true" />
+                <element signature="e#4108#4109#0" expanded="true" />
+                <element signature="e#4148#4149#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Warsztaty_2/src/User.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Exercise.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Main2.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/DBDate.java" />
@@ -181,12 +181,13 @@
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Group.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Main.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Main5.java" />
+        <option value="$PROJECT_DIR$/Warsztaty_2/src/User.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1635" />
-    <option name="y" value="-299" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1751" />
+    <option name="y" value="-405" />
     <option name="width" value="1346" />
     <option name="height" value="988" />
   </component>
@@ -228,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552386410181" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552387113919" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -296,15 +297,15 @@
       <option name="presentableId" value="Default" />
       <updated>1552304919387</updated>
       <workItem from="1552304924821" duration="7629000" />
-      <workItem from="1552383060853" duration="3130000" />
+      <workItem from="1552383060853" duration="3828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10759000" />
+    <option name="totallyTimeSpent" value="11457000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1635" y="-299" width="1346" height="988" extended-state="0" />
+    <frame x="1751" y="-405" width="1346" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534992" />
@@ -445,18 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="107" selection-start-line="107" selection-end-line="115" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Group.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -499,6 +488,22 @@
           <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#4032#4033#0" expanded="true" />
+            <element signature="e#4063#4064#0" expanded="true" />
+            <element signature="e#4108#4109#0" expanded="true" />
+            <element signature="e#4148#4149#0" expanded="true" />
           </folding>
         </state>
       </provider>
