@@ -26,7 +26,7 @@ public class Main4 {
 //            solution.saveToDB(connection.getConnection());
 //
 //
-            ArrayList<Solution> solutions = Solution.loadAllByUserId(connection.getConnection(),1);
+            ArrayList<Solution> solutions = Solution.loadAllByExerciseId(connection.getConnection(),2);
             for (Solution solution1 : solutions) {
                 System.out.println("id: " + solution1.getId() + " created:  " + solution1.getCreated() + " opis: " + solution1.getDescription());
             }
