@@ -99,7 +99,7 @@ public class Solution {
         }
     }
 
-    static public Solution loadExerciseById(Connection conn, int id) throws SQLException {
+    static public Solution loadSolutionById(Connection conn, int id) throws SQLException {
         String sql = "SELECT * FROM solution where id=?";
         PreparedStatement preparedStatement = conn.prepareStatement(sql);
         preparedStatement.setInt(1, id);
