@@ -30,7 +30,7 @@ public class PrintExerciseAdm {
             System.out.println("podaj tytuł:");
             title = scanner.nextLine();
             System.out.println("podaj opis:");
-            description = scanner.nextLine();
+            description = scanner.next();
 
             return new Exercise(title,description);
         }
@@ -49,13 +49,21 @@ public class PrintExerciseAdm {
         System.out.println("podaj tytuł:");
         title = scanner.nextLine();
         System.out.println("podaj opis:");
-        description = scanner.nextLine();
+        description = scanner.next();
 
         exercise.setTitle(title);
         exercise.setDescription(description);
 
         return exercise;
     }
-    
+    public static Exercise exerciseDelete(Connection connection, Scanner scanner) throws SQLException {
+
+        int id;
+        System.out.println("podaj id:");
+        id = scanner.nextInt();
+
+        return Exercise.loadExerciseById(connection, id);
+
+    }
 
 }

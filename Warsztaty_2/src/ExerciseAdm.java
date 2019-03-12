@@ -29,7 +29,8 @@ public class ExerciseAdm {
                         break;
 
                     case "delete":
-
+                        Exercise exerciseDelete = PrintExerciseAdm.exerciseDelete(connection.getConnection(),scanner);
+                        exerciseDelete.delete(connection.getConnection());
                         command = scanner.nextLine();
                         break;
 

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e057531-f4c8-4b1c-8449-190c6dff2e1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Warsztaty_2/src/ExerciseAdm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Warsztaty_2/src/PrintExerciseAdm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warsztaty_2/src/ExerciseAdm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warsztaty_2/src/ExerciseAdm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warsztaty_2/src/PrintExerciseAdm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warsztaty_2/src/PrintExerciseAdm.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/UserAdm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="66">
               <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/ExerciseAdm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="304">
+              <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/PrintExerciseAdm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+            <state relative-caret-position="355">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,8 +182,8 @@
         <option value="$PROJECT_DIR$/Warsztaty_2/src/PrintUserAdm.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/SolutionAdm.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/PrintSolutionAdm.java" />
-        <option value="$PROJECT_DIR$/Warsztaty_2/src/ExerciseAdm.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/PrintExerciseAdm.java" />
+        <option value="$PROJECT_DIR$/Warsztaty_2/src/ExerciseAdm.java" />
       </list>
     </option>
   </component>
@@ -232,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552395836891" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552397171160" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -308,12 +307,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552304919387</updated>
       <workItem from="1552304924821" duration="7629000" />
-      <workItem from="1552383060853" duration="12770000" />
+      <workItem from="1552383060853" duration="13476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20399000" />
+    <option name="totallyTimeSpent" value="21105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1910" y="-480" width="1346" height="988" extended-state="0" />
@@ -554,26 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/UserAdm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/ExerciseAdm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/PrintUserAdm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -586,8 +565,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/PrintExerciseAdm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        <state relative-caret-position="355">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/UserAdm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/ExerciseAdm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
