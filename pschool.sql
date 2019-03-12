@@ -27,7 +27,7 @@ CREATE TABLE `exercise` (
   `title` varchar(255) DEFAULT NULL,
   `description` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `exercise` (
 
 LOCK TABLES `exercise` WRITE;
 /*!40000 ALTER TABLE `exercise` DISABLE KEYS */;
-INSERT INTO `exercise` VALUES (1,'exercise1','description1'),(2,'exercise2','description2'),(3,'exercise2','description2');
+INSERT INTO `exercise` VALUES (1,'exercise1','description1'),(2,'exercise2','nowy opis 2'),(3,'exercise3','description3'),(4,'jakiś tytuł nowy1','jakiś opis nowy1');
 /*!40000 ALTER TABLE `exercise` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -59,7 +59,7 @@ CREATE TABLE `solution` (
   KEY `2_idx` (`users_id`),
   CONSTRAINT `1` FOREIGN KEY (`exercise_id`) REFERENCES `exercise` (`id`),
   CONSTRAINT `2` FOREIGN KEY (`users_id`) REFERENCES `users` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -68,7 +68,7 @@ CREATE TABLE `solution` (
 
 LOCK TABLES `solution` WRITE;
 /*!40000 ALTER TABLE `solution` DISABLE KEYS */;
-INSERT INTO `solution` VALUES (1,'2019-03-11 02:23:33','2019-03-11 02:23:33','opis1',1,1);
+INSERT INTO `solution` VALUES (1,'2019-03-11 02:23:33','2019-03-11 02:23:33','nowy opis 2',1,1),(2,'2019-03-06 10:46:38','2019-03-06 10:46:38','opis3',3,1),(3,'2019-03-10 10:46:38','2019-03-10 10:46:38','opis4',2,3),(4,'2019-03-12 10:46:38','2019-03-12 10:46:38','nowy opis',2,2);
 /*!40000 ALTER TABLE `solution` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -83,7 +83,7 @@ CREATE TABLE `user_group` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -92,6 +92,7 @@ CREATE TABLE `user_group` (
 
 LOCK TABLES `user_group` WRITE;
 /*!40000 ALTER TABLE `user_group` DISABLE KEYS */;
+INSERT INTO `user_group` VALUES (1,'name1'),(2,'name2'),(3,'name3'),(4,'name4'),(5,'name5'),(6,'name6');
 /*!40000 ALTER TABLE `user_group` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -118,7 +119,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'name4','mail4','$2a$10$xmmoe4MXoEh.AJBa6NUope6af1V7zqmhSKTtABbPx1NMf4O0NLFv.'),(3,'name2','mail2','$2a$10$Utjc5A5GbWCO9ExZc.BqmO.vknNjq9sgGHjL.Y4VueMIDxlm/aeRm'),(4,'name3','mail3','$2a$10$IiowJQLaK9yATexBIQ6vT.sDQ9k3.nnNsJnpCWa98ibg3DKFVxhkK'),(6,'name5','mail5','$2a$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS');
+INSERT INTO `users` VALUES (1,'name4','mail4','$2a$10$xmmoe4MXoEh.AJBa6NUope6af1V7zqmhSKTtABbPx1NMf4O0NLFv.'),(2,'name22','mail22','$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS'),(3,'name2','mail2','$2a$10$Utjc5A5GbWCO9ExZc.BqmO.vknNjq9sgGHjL.Y4VueMIDxlm/aeRm'),(4,'name3','mail3','$2a$10$IiowJQLaK9yATexBIQ6vT.sDQ9k3.nnNsJnpCWa98ibg3DKFVxhkK'),(5,'name55','mail55','$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS'),(6,'name5','mail5','$2a$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -131,4 +132,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-11 15:30:30
+-- Dump completed on 2019-03-12 11:29:48
