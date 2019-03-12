@@ -18,13 +18,15 @@ public class UserAdm {
                 switch (command) {
                     case "add":
                         System.out.println("wpisano add");
-                        User user = PrintUserAdm.userAdd(connection.getConnection(), scanner);
-                        user.saveToDB(connection.getConnection());
+                        User userAdd = PrintUserAdm.userAdd(connection.getConnection(), scanner);
+                        userAdd.saveToDB(connection.getConnection());
                         command = scanner.nextLine();
                         break;
 
                     case "edit":
                         System.out.println("wpisano edit");
+                        User userEdit = PrintUserAdm.userEdit(connection.getConnection(),scanner);
+                        userEdit.saveToDB(connection.getConnection());
                         command = scanner.nextLine();
                         break;
 

@@ -44,4 +44,34 @@ public class PrintUserAdm {
 
         return new User(name,email,password,group_id);
     }
+
+    public static User userEdit(Connection connection, Scanner scanner) throws SQLException {
+
+        String name;
+        String email;
+        String password;
+        int id;
+        int group_id;
+
+        System.out.println("podaj id:");
+        id = Integer.valueOf(scanner.nextLine());
+
+        User user = User.loadUserById(connection, id);
+
+        System.out.println("podaj imię:");
+        name = scanner.nextLine();
+        System.out.println("podaj email:");
+        email = scanner.nextLine();
+        System.out.println("podaj hasło:");
+        password = scanner.nextLine();
+        System.out.println("podaj group_id");
+        group_id = scanner.nextInt();
+
+        user.setUsername(name);
+        user.setEmail(email);
+        user.setPassword(password);
+        user.setGroup_id(group_id);
+
+        return user;
+    }
 }
