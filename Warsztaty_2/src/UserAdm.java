@@ -14,26 +14,35 @@ public class UserAdm {
 
             command = scanner.nextLine();
 
-            switch (command) {
-                case "add":
-                    System.out.println("wpisano add");
-                    break;
+            while(!command.equals("quit")) {
+                switch (command) {
+                    case "add":
+                        System.out.println("wpisano add");
+                        User user = PrintUserAdm.userAdd(connection.getConnection(), scanner);
+                        user.saveToDB(connection.getConnection());
+                        command = scanner.nextLine();
+                        break;
 
-                case "edit":
-                    System.out.println("wpisano edit");
-                    break;
+                    case "edit":
+                        System.out.println("wpisano edit");
+                        command = scanner.nextLine();
+                        break;
 
-                case "delete":
-                    System.out.println("wpisano delete");
-                    break;
+                    case "delete":
+                        System.out.println("wpisano delete");
+                        command = scanner.nextLine();
+                        break;
 
-                case "quit":
-                    System.out.println("wpisano quit");
-                    break;
+                    case "quit":
+                        System.out.println("wpisano quit");
+                        command = scanner.nextLine();
+                        break;
 
                     default:
-                        System.out.println("wpisano niepoprawne polecenie");
+                        PrintUserAdm.begin(connection.getConnection());
+                        command = scanner.nextLine();
 
+                }
             }
 
         } catch (SQLException e) {

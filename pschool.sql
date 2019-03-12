@@ -113,7 +113,7 @@ CREATE TABLE `users` (
   UNIQUE KEY `email_UNIQUE` (`email`),
   KEY `1_idx` (`group_id`),
   CONSTRAINT `group_fk` FOREIGN KEY (`group_id`) REFERENCES `user_group` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -122,7 +122,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'name4','mail4','$2a$10$xmmoe4MXoEh.AJBa6NUope6af1V7zqmhSKTtABbPx1NMf4O0NLFv.',3),(2,'name22','mail22','$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS',4),(3,'name2','mail2','$2a$10$Utjc5A5GbWCO9ExZc.BqmO.vknNjq9sgGHjL.Y4VueMIDxlm/aeRm',6),(4,'name3','mail3','$2a$10$IiowJQLaK9yATexBIQ6vT.sDQ9k3.nnNsJnpCWa98ibg3DKFVxhkK',5),(5,'name55','mail55','$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS',4),(6,'name5','mail5','$2a$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS',2);
+INSERT INTO `users` VALUES (1,'name4','mail4','$2a$10$xmmoe4MXoEh.AJBa6NUope6af1V7zqmhSKTtABbPx1NMf4O0NLFv.',3),(2,'name22','mail22','$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS',4),(3,'name2','mail2','$2a$10$Utjc5A5GbWCO9ExZc.BqmO.vknNjq9sgGHjL.Y4VueMIDxlm/aeRm',6),(4,'name3','mail3','$2a$10$IiowJQLaK9yATexBIQ6vT.sDQ9k3.nnNsJnpCWa98ibg3DKFVxhkK',5),(5,'name55','mail55','$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS',4),(6,'name5','mail5','$2a$10$kmP9sLRyfRWR0zAiuCReq.Sy3NEu9Z9HU0BQ7bY.eSybqCOY5uGFS',2),(7,'imieadd','mailadd','$2a$10$QM/pXTt0zqA06X0Xqr3WsOp0cZ08kI6bhwij/QICYb95kmCu4bkQi',2),(8,'UserAdd2','Email2','$2a$10$QRMBugGTPahiuKuRxq4UdebePnf.w.42jd3G2eDT045OnnyGDnFbu',3),(9,'asd','weor','$2a$10$UqJjZR.AqFinacQ51wSqPu1728fUrYoUrLSsrwmgCUe1d9yAyzii.',1);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -135,4 +135,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-12 11:40:46
+-- Dump completed on 2019-03-12 13:11:48

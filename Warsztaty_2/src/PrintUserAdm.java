@@ -3,11 +3,13 @@ import com.mysql.jdbc.Connection;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class PrintUserAdm {
 
 
     public static void begin(Connection connection) throws SQLException {
+
 
         ArrayList<User> users = User.loadAllUsers(connection);
         for (User user : users) {
@@ -22,5 +24,24 @@ public class PrintUserAdm {
         System.out.println("delete - usunięcie użytkownika");
         System.out.println("quit - zakończenie programu");
 
+    }
+
+    public static User userAdd(Connection connection, Scanner scanner) {
+
+        String name;
+        String email;
+        String password;
+        int group_id;
+
+        System.out.println("podaj imię:");
+        name = scanner.nextLine();
+        System.out.println("podaj email:");
+        email = scanner.nextLine();
+        System.out.println("podaj hasło:");
+        password = scanner.nextLine();
+        System.out.println("podaj group_id");
+        group_id = scanner.nextInt();
+
+        return new User(name,email,password,group_id);
     }
 }
