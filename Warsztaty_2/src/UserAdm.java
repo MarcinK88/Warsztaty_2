@@ -32,6 +32,8 @@ public class UserAdm {
 
                     case "delete":
                         System.out.println("wpisano delete");
+                        User userDelete = PrintUserAdm.userDelete(connection.getConnection(),scanner);
+                        userDelete.delete(connection.getConnection());
                         command = scanner.nextLine();
                         break;
 

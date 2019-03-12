@@ -74,4 +74,14 @@ public class PrintUserAdm {
 
         return user;
     }
+
+    public static User userDelete(Connection connection, Scanner scanner) throws SQLException {
+
+        int id;
+        System.out.println("podaj id:");
+        id = scanner.nextInt();
+
+        return User.loadUserById(connection, id);
+
+    }
 }
