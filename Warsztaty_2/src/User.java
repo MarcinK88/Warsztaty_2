@@ -40,7 +40,7 @@ public class User {
             preparedStatement.setString(1, this.username);
             preparedStatement.setString(2, this.email);
             preparedStatement.setString(3, this.password);
-            preparedStatement.setString(4, this.group_id);
+            preparedStatement.setInt(4, this.group_id);
             preparedStatement.executeUpdate();
             ResultSet rs = preparedStatement.getGeneratedKeys();
             if (rs.next()) {
@@ -52,7 +52,7 @@ public class User {
             preparedStatement.setString(1, this.username);
             preparedStatement.setString(2, this.email);
             preparedStatement.setString(3, this.password);
-            preparedStatement.setString(4, this.group_id);
+            preparedStatement.setInt(4, this.group_id);
             preparedStatement.setInt(5, this.id);
             preparedStatement.executeUpdate();
         }
@@ -70,7 +70,7 @@ public class User {
             loadedUser.username = resultSet.getString("username");
             loadedUser.password = resultSet.getString("password");
             loadedUser.email = resultSet.getString("email");
-            loadedUser.group_id = resultSet.getString("group_id");
+            loadedUser.group_id = resultSet.getInt("group_id");
             return loadedUser;}
         return null;
     }
@@ -106,7 +106,7 @@ public class User {
             loadedUser.username = resultSet.getString("username");
             loadedUser.password = resultSet.getString("password");
             loadedUser.email = resultSet.getString("email");
-            loadedUser.group_id = resultSet.getString("group_id");
+            loadedUser.group_id = resultSet.getInt("group_id");
             users.add(loadedUser);}
 
         return users;}

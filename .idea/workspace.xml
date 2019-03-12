@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e057531-f4c8-4b1c-8449-190c6dff2e1a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warsztaty_2/src/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warsztaty_2/src/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warsztaty_2/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warsztaty_2/src/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Warsztaty_2/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warsztaty_2/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Warsztaty_2/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Warsztaty_2/Main4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Warsztaty_2/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Warsztaty_2/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Warsztaty_2/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Warsztaty_2/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Main4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="28" selection-start-line="28" selection-end-line="31" selection-end-column="15" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+            <state relative-caret-position="73">
+              <caret line="72" column="51" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#560#561#0" expanded="true" />
@@ -122,12 +128,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+            <state relative-caret-position="560">
+              <caret line="153" column="53" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1188#1189#0" expanded="true" />
                 <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#4038#4048#0" expanded="true" />
+                <element signature="e#5333#5343#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,18 +184,18 @@
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Main2.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/DBDate.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Main3.java" />
-        <option value="$PROJECT_DIR$/Warsztaty_2/src/Solution.java" />
-        <option value="$PROJECT_DIR$/Warsztaty_2/src/Main4.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Group.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Main.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/Main5.java" />
+        <option value="$PROJECT_DIR$/Warsztaty_2/src/Solution.java" />
+        <option value="$PROJECT_DIR$/Warsztaty_2/src/Main4.java" />
         <option value="$PROJECT_DIR$/Warsztaty_2/src/User.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1751" />
-    <option name="y" value="-405" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-458" />
     <option name="width" value="1346" />
     <option name="height" value="988" />
   </component>
@@ -229,7 +237,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552387113919" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552388093887" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -248,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main5">
+  <component name="RunManager" selected="Application.Main4">
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
       <module name="Warsztaty_2" />
@@ -279,8 +287,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4" />
+        <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
       </list>
@@ -297,15 +305,15 @@
       <option name="presentableId" value="Default" />
       <updated>1552304919387</updated>
       <workItem from="1552304924821" duration="7629000" />
-      <workItem from="1552383060853" duration="3828000" />
+      <workItem from="1552383060853" duration="4824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11457000" />
+    <option name="totallyTimeSpent" value="12453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1751" y="-405" width="1346" height="988" extended-state="0" />
+    <frame x="1912" y="-458" width="1346" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534992" />
@@ -414,38 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Exercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3242#3243#0" expanded="true" />
-            <element signature="e#3270#3271#0" expanded="true" />
-            <element signature="e#3312#3313#0" expanded="true" />
-            <element signature="e#3346#3347#0" expanded="true" />
-            <element signature="e#3384#3385#0" expanded="true" />
-            <element signature="e#3418#3419#0" expanded="true" />
-            <element signature="e#3472#3473#0" expanded="true" />
-            <element signature="e#3518#3519#0" expanded="true" />
-            <element signature="e#3544#3545#0" expanded="true" />
-            <element signature="e#3569#3570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Group.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -472,16 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Main4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="28" selection-start-line="28" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Main5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -492,10 +458,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="153" column="53" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#4038#4048#0" expanded="true" />
+            <element signature="e#5333#5343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Exercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3242#3243#0" expanded="true" />
+            <element signature="e#3270#3271#0" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3346#3347#0" expanded="true" />
+            <element signature="e#3384#3385#0" expanded="true" />
+            <element signature="e#3418#3419#0" expanded="true" />
+            <element signature="e#3472#3473#0" expanded="true" />
+            <element signature="e#3518#3519#0" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+            <element signature="e#3569#3570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+        <state relative-caret-position="73">
+          <caret line="72" column="51" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#560#561#0" expanded="true" />
@@ -504,6 +504,16 @@
             <element signature="e#4063#4064#0" expanded="true" />
             <element signature="e#4108#4109#0" expanded="true" />
             <element signature="e#4148#4149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Warsztaty_2/src/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
