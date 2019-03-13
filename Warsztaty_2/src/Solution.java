@@ -24,7 +24,11 @@ public class Solution {
     }
 
     public String getUpdated() {
-        return updated.toString();
+        if (updated!=null) {
+            return updated.toString();
+        } else {
+            return "";
+        }
     }
 
     public void setUpdated(String updated) {

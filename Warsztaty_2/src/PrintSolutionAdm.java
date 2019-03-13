@@ -26,12 +26,9 @@ public class PrintSolutionAdm {
 
     public static Solution solutionAdd(Connection connection, Scanner scanner) {
 
-        String description;
+
         int exercise_id;
         int users_id;
-
-        System.out.println("wpisz opis:");
-        description = scanner.nextLine().toString();
 
         System.out.println("podaj id zadania:");
         exercise_id = Integer.valueOf(scanner.nextLine());
@@ -39,7 +36,7 @@ public class PrintSolutionAdm {
         System.out.println("podaj id użytkownika:");
         users_id = Integer.valueOf(scanner.nextLine());
 
-        return new Solution(DBDate.setDate(new Date()),DBDate.setDate(new Date()),description, exercise_id, users_id);
+        return new Solution(DBDate.setDate(new Date()),null,"", exercise_id, users_id);
     }
 
     public static void solutionView(Connection connection, Scanner scanner) throws SQLException {
