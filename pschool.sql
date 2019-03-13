@@ -59,7 +59,7 @@ CREATE TABLE `solution` (
   KEY `2_idx` (`users_id`),
   CONSTRAINT `1` FOREIGN KEY (`exercise_id`) REFERENCES `exercise` (`id`),
   CONSTRAINT `2` FOREIGN KEY (`users_id`) REFERENCES `users` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -68,7 +68,7 @@ CREATE TABLE `solution` (
 
 LOCK TABLES `solution` WRITE;
 /*!40000 ALTER TABLE `solution` DISABLE KEYS */;
-INSERT INTO `solution` VALUES (1,'2019-03-11 02:23:33','2019-03-11 02:23:33','nowy opis 2',1,1),(2,'2019-03-06 10:46:38','2019-03-06 10:46:38','opis3',3,1),(3,'2019-03-10 10:46:38','2019-03-10 10:46:38','opis4',2,3),(4,'2019-03-12 10:46:38','2019-03-12 10:46:38','nowy opis',2,2),(5,'2019-03-13 10:10:50','2019-03-13 10:10:50','opis opis',1,2);
+INSERT INTO `solution` VALUES (1,'2019-03-11 02:23:33','2019-03-11 02:23:33','nowy opis 2',1,1),(2,'2019-03-06 10:46:38','2019-03-06 10:46:38','opis3',3,1),(3,'2019-03-10 10:46:38','2019-03-10 10:46:38','opis4',2,3),(4,'2019-03-12 10:46:38','2019-03-12 10:46:38','nowy opis',2,2),(5,'2019-03-13 10:10:50','2019-03-13 10:10:50','opis opis',1,2),(6,'2019-03-13 10:28:54',NULL,'',3,3),(7,'2019-03-13 10:30:35',NULL,'',4,3),(8,'2019-03-13 12:50:37','2019-03-13 12:50:37','treść rozw',5,1),(9,'2019-03-13 01:07:39','2019-03-13 01:07:39','costam',6,2);
 /*!40000 ALTER TABLE `solution` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -135,4 +135,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-13 10:25:51
+-- Dump completed on 2019-03-13 13:08:01
