@@ -45,12 +45,12 @@ public class SolutionUser {
                         command = scanner.nextLine();
                 }
             }
+
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             connection.closeConnection();
         }
-
 
     }
 }
