@@ -43,7 +43,6 @@ public class SolutionUser {
                     default:
                         PrintSolutionUser.begin(connection.getConnection());
                         command = scanner.nextLine();
-
                 }
             }
         } catch (SQLException e) {
